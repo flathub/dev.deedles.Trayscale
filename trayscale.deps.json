@@ -1,0 +1,218 @@
+[
+  {
+    "type": "git",
+    "url": "https://github.com/DeedleFake/mk",
+    "tag": "v0.1.0",
+    "dest": "vendor/deedles.dev/mk"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/FiloSottile/edwards25519",
+    "tag": "v1.0.0",
+    "dest": "vendor/filippo.io/edwards25519"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/Microsoft/go-winio",
+    "tag": "v0.6.0",
+    "dest": "vendor/github.com/Microsoft/go-winio"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/akutz/memconn",
+    "tag": "v0.1.0",
+    "dest": "vendor/github.com/akutz/memconn"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/alexbrainman/sspi",
+    "commit": "909beea2cc74",
+    "dest": "vendor/github.com/alexbrainman/sspi"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/diamondburned/gotk4",
+    "tag": "pkg/v0.0.4",
+    "dest": "vendor/github.com/diamondburned/gotk4"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/diamondburned/gotk4-adwaita",
+    "commit": "dcc3707dc307",
+    "dest": "vendor/github.com/diamondburned/gotk4-adwaita"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/fxamacker/cbor",
+    "tag": "v2.4.0",
+    "dest": "vendor/github.com/fxamacker/cbor/v2"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/golang/groupcache",
+    "commit": "41bb18bfe9da",
+    "dest": "vendor/github.com/golang/groupcache"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/google/go-cmp",
+    "tag": "v0.5.9",
+    "dest": "vendor/github.com/google/go-cmp"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/gorilla/websocket",
+    "tag": "v1.5.0",
+    "dest": "vendor/github.com/gorilla/websocket"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/hdevalence/ed25519consensus",
+    "tag": "v0.1.0",
+    "dest": "vendor/github.com/hdevalence/ed25519consensus"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/josharian/native",
+    "tag": "v1.1.0",
+    "dest": "vendor/github.com/josharian/native"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/jsimonetti/rtnetlink",
+    "tag": "v1.3.1",
+    "dest": "vendor/github.com/jsimonetti/rtnetlink"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/klauspost/compress",
+    "tag": "v1.16.0",
+    "dest": "vendor/github.com/klauspost/compress"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/mattn/go-isatty",
+    "tag": "v0.0.16",
+    "dest": "vendor/github.com/mattn/go-isatty"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/mdlayher/netlink",
+    "tag": "v1.7.1",
+    "dest": "vendor/github.com/mdlayher/netlink"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/mdlayher/socket",
+    "tag": "v0.4.0",
+    "dest": "vendor/github.com/mdlayher/socket"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/mitchellh/go-ps",
+    "tag": "v1.0.0",
+    "dest": "vendor/github.com/mitchellh/go-ps"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/tailscale/goupnp",
+    "commit": "c64d0f06ea05",
+    "dest": "vendor/github.com/tailscale/goupnp"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/tcnksm/go-httpstat",
+    "tag": "v0.2.0",
+    "dest": "vendor/github.com/tcnksm/go-httpstat"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/x448/float16",
+    "tag": "v0.8.4",
+    "dest": "vendor/github.com/x448/float16"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/go4org/mem",
+    "commit": "4f986261bf13",
+    "dest": "vendor/go4.org/mem"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/go4org/netipx",
+    "commit": "f1b76eb4bb35",
+    "dest": "vendor/go4.org/netipx"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/go4org/unsafe-assume-no-moving-gc",
+    "commit": "e4bae7ad2296",
+    "dest": "vendor/go4.org/unsafe/assume-no-moving-gc"
+  },
+  {
+    "type": "git",
+    "url": "https://go.googlesource.com/crypto",
+    "tag": "v0.7.0",
+    "dest": "vendor/golang.org/x/crypto"
+  },
+  {
+    "type": "git",
+    "url": "https://go.googlesource.com/exp",
+    "commit": "9ff063c70017",
+    "dest": "vendor/golang.org/x/exp"
+  },
+  {
+    "type": "git",
+    "url": "https://go.googlesource.com/mod",
+    "tag": "v0.9.0",
+    "dest": "vendor/golang.org/x/mod"
+  },
+  {
+    "type": "git",
+    "url": "https://go.googlesource.com/net",
+    "tag": "v0.8.0",
+    "dest": "vendor/golang.org/x/net"
+  },
+  {
+    "type": "git",
+    "url": "https://go.googlesource.com/sync",
+    "tag": "v0.1.0",
+    "dest": "vendor/golang.org/x/sync"
+  },
+  {
+    "type": "git",
+    "url": "https://go.googlesource.com/sys",
+    "tag": "v0.6.0",
+    "dest": "vendor/golang.org/x/sys"
+  },
+  {
+    "type": "git",
+    "url": "https://go.googlesource.com/time",
+    "tag": "v0.3.0",
+    "dest": "vendor/golang.org/x/time"
+  },
+  {
+    "type": "git",
+    "url": "https://go.googlesource.com/tools",
+    "tag": "v0.6.0",
+    "dest": "vendor/golang.org/x/tools"
+  },
+  {
+    "type": "git",
+    "url": "https://git.zx2c4.com/wireguard-windows",
+    "tag": "v0.5.3",
+    "dest": "vendor/golang.zx2c4.com/wireguard/windows"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/nhooyr/websocket",
+    "tag": "v1.8.7",
+    "dest": "vendor/nhooyr.io/websocket"
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/tailscale/tailscale",
+    "tag": "v1.36.2",
+    "dest": "vendor/tailscale.com"
+  }
+]

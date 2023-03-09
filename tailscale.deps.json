@@ -3,1914 +3,2552 @@
     "type": "git",
     "url": "https://github.com/leighmcculloch/gochecknoglobals",
     "tag": "v0.1.0",
-    "dest": "vendor/4d63.com/gochecknoglobals"
+    "dest": "vendor/4d63.com/gochecknoglobals",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/FiloSottile/edwards25519",
     "tag": "v1.0.0-rc.1",
-    "dest": "vendor/filippo.io/edwards25519"
+    "dest": "vendor/filippo.io/edwards25519",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/FiloSottile/mkcert",
     "tag": "v1.4.3",
-    "dest": "vendor/filippo.io/mkcert"
+    "dest": "vendor/filippo.io/mkcert",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/Antonboom/errname",
     "tag": "v0.1.5",
-    "dest": "vendor/github.com/Antonboom/errname"
+    "dest": "vendor/github.com/Antonboom/errname",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/Antonboom/nilnil",
     "tag": "v0.1.0",
-    "dest": "vendor/github.com/Antonboom/nilnil"
+    "dest": "vendor/github.com/Antonboom/nilnil",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/BurntSushi/toml",
     "tag": "v1.2.1",
-    "dest": "vendor/github.com/BurntSushi/toml"
+    "dest": "vendor/github.com/BurntSushi/toml",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/Djarvur/go-err113",
     "tag": "v0.1.0",
-    "dest": "vendor/github.com/Djarvur/go-err113"
+    "dest": "vendor/github.com/Djarvur/go-err113",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/Masterminds/goutils",
     "tag": "v1.1.1",
-    "dest": "vendor/github.com/Masterminds/goutils"
+    "dest": "vendor/github.com/Masterminds/goutils",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/Masterminds/semver",
     "tag": "v1.5.0",
-    "dest": "vendor/github.com/Masterminds/semver"
+    "dest": "vendor/github.com/Masterminds/semver",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/Masterminds/semver",
     "tag": "v3.1.1",
-    "dest": "vendor/github.com/Masterminds/semver/v3"
+    "dest": "vendor/github.com/Masterminds/semver/v3",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/Masterminds/sprig",
     "tag": "v2.22.0",
-    "dest": "vendor/github.com/Masterminds/sprig"
+    "dest": "vendor/github.com/Masterminds/sprig",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/Microsoft/go-winio",
     "tag": "v0.6.0",
-    "dest": "vendor/github.com/Microsoft/go-winio"
+    "dest": "vendor/github.com/Microsoft/go-winio",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/OpenPeeDeeP/depguard",
     "tag": "v1.0.1",
-    "dest": "vendor/github.com/OpenPeeDeeP/depguard"
+    "dest": "vendor/github.com/OpenPeeDeeP/depguard",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/ProtonMail/go-crypto",
     "commit": "cf6655e29de4",
-    "dest": "vendor/github.com/ProtonMail/go-crypto"
+    "dest": "vendor/github.com/ProtonMail/go-crypto",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/PuerkitoBio/purell",
     "tag": "v1.1.1",
-    "dest": "vendor/github.com/PuerkitoBio/purell"
+    "dest": "vendor/github.com/PuerkitoBio/purell",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/PuerkitoBio/urlesc",
     "commit": "de5bf2ad4578",
-    "dest": "vendor/github.com/PuerkitoBio/urlesc"
+    "dest": "vendor/github.com/PuerkitoBio/urlesc",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/acomagu/bufpipe",
     "tag": "v1.0.3",
-    "dest": "vendor/github.com/acomagu/bufpipe"
+    "dest": "vendor/github.com/acomagu/bufpipe",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/akutz/memconn",
     "tag": "v0.1.0",
-    "dest": "vendor/github.com/akutz/memconn"
+    "dest": "vendor/github.com/akutz/memconn",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/alexbrainman/sspi",
     "commit": "909beea2cc74",
-    "dest": "vendor/github.com/alexbrainman/sspi"
+    "dest": "vendor/github.com/alexbrainman/sspi",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/alexkohler/prealloc",
     "tag": "v1.0.0",
-    "dest": "vendor/github.com/alexkohler/prealloc"
+    "dest": "vendor/github.com/alexkohler/prealloc",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/andybalholm/brotli",
     "tag": "v1.0.3",
-    "dest": "vendor/github.com/andybalholm/brotli"
+    "dest": "vendor/github.com/andybalholm/brotli",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/anmitsu/go-shlex",
     "commit": "38f4b401e2be",
-    "dest": "vendor/github.com/anmitsu/go-shlex"
+    "dest": "vendor/github.com/anmitsu/go-shlex",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/ashanbrown/forbidigo",
     "tag": "v1.2.0",
-    "dest": "vendor/github.com/ashanbrown/forbidigo"
+    "dest": "vendor/github.com/ashanbrown/forbidigo",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/ashanbrown/makezero",
     "commit": "b6261585ddde",
-    "dest": "vendor/github.com/ashanbrown/makezero"
-  },
-  {
-    "type": "git",
-    "url": "https://github.com/aws/aws-sdk-go-v2",
-    "tag": "v1.17.3",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
-  },
-  {
-    "type": "git",
-    "url": "https://github.com/aws/aws-sdk-go-v2",
-    "tag": "config/v1.11.0",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
-  },
-  {
-    "type": "git",
-    "url": "https://github.com/aws/aws-sdk-go-v2",
-    "tag": "aws/protocol/eventstream/v1.0.0",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
-  },
-  {
-    "type": "git",
-    "url": "https://github.com/aws/aws-sdk-go-v2",
-    "tag": "service/s3/v1.21.0",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
-  },
-  {
-    "type": "git",
-    "url": "https://github.com/aws/aws-sdk-go-v2",
-    "tag": "feature/ec2/imds/v1.8.2",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
-  },
-  {
-    "type": "git",
-    "url": "https://github.com/aws/aws-sdk-go-v2",
-    "tag": "service/internal/s3shared/v1.9.2",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
+    "dest": "vendor/github.com/ashanbrown/makezero",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/aws/aws-sdk-go-v2",
     "tag": "credentials/v1.6.4",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/aws/aws-sdk-go-v2",
-    "tag": "service/internal/accept-encoding/v1.5.0",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
-  },
-  {
-    "type": "git",
-    "url": "https://github.com/aws/aws-sdk-go-v2",
-    "tag": "service/internal/presigned-url/v1.5.2",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
-  },
-  {
-    "type": "git",
-    "url": "https://github.com/aws/aws-sdk-go-v2",
-    "tag": "service/sso/v1.6.2",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
-  },
-  {
-    "type": "git",
-    "url": "https://github.com/aws/aws-sdk-go-v2",
-    "tag": "service/sts/v1.11.1",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
+    "tag": "v1.17.3",
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/aws/aws-sdk-go-v2",
     "tag": "feature/s3/manager/v1.7.4",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/aws/aws-sdk-go-v2",
-    "tag": "internal/ini/v1.3.2",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
+    "tag": "config/v1.11.0",
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/aws/aws-sdk-go-v2",
-    "tag": "service/ssm/v1.35.0",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
+    "tag": "service/internal/s3shared/v1.9.2",
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/aws/aws-sdk-go-v2",
+    "tag": "service/internal/presigned-url/v1.5.2",
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/aws/aws-sdk-go-v2",
+    "tag": "service/sts/v1.11.1",
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/aws/aws-sdk-go-v2",
+    "tag": "feature/ec2/imds/v1.8.2",
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/aws/aws-sdk-go-v2",
     "tag": "internal/configsources/v1.1.27",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2"
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/aws/aws-sdk-go-v2",
+    "tag": "service/s3/v1.21.0",
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/aws/aws-sdk-go-v2",
+    "tag": "internal/ini/v1.3.2",
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/aws/aws-sdk-go-v2",
+    "tag": "service/sso/v1.6.2",
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/aws/aws-sdk-go-v2",
+    "tag": "service/internal/accept-encoding/v1.5.0",
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/aws/aws-sdk-go-v2",
+    "tag": "aws/protocol/eventstream/v1.0.0",
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
+  },
+  {
+    "type": "git",
+    "url": "https://github.com/aws/aws-sdk-go-v2",
+    "tag": "service/ssm/v1.35.0",
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/aws/aws-sdk-go-v2",
     "tag": "internal/endpoints/v2.4.21",
-    "dest": "vendor/github.com/aws/aws-sdk-go-v2/v2"
+    "dest": "vendor/github.com/aws/aws-sdk-go-v2/v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/aws/smithy-go",
     "tag": "v1.13.5",
-    "dest": "vendor/github.com/aws/smithy-go"
+    "dest": "vendor/github.com/aws/smithy-go",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/beorn7/perks",
     "tag": "v1.0.1",
-    "dest": "vendor/github.com/beorn7/perks"
+    "dest": "vendor/github.com/beorn7/perks",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/bkielbasa/cyclop",
     "tag": "v1.2.0",
-    "dest": "vendor/github.com/bkielbasa/cyclop"
+    "dest": "vendor/github.com/bkielbasa/cyclop",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/blakesmith/ar",
     "commit": "809d4375e1fb",
-    "dest": "vendor/github.com/blakesmith/ar"
+    "dest": "vendor/github.com/blakesmith/ar",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/blizzy78/varnamelen",
     "tag": "v0.5.0",
-    "dest": "vendor/github.com/blizzy78/varnamelen"
+    "dest": "vendor/github.com/blizzy78/varnamelen",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/bombsimon/wsl",
     "tag": "v3.3.0",
-    "dest": "vendor/github.com/bombsimon/wsl/v3"
+    "dest": "vendor/github.com/bombsimon/wsl/v3",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/breml/bidichk",
     "tag": "v0.2.1",
-    "dest": "vendor/github.com/breml/bidichk"
+    "dest": "vendor/github.com/breml/bidichk",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/butuzov/ireturn",
     "tag": "v0.1.1",
-    "dest": "vendor/github.com/butuzov/ireturn"
+    "dest": "vendor/github.com/butuzov/ireturn",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/cavaliercoder/go-cpio",
     "commit": "925f9528c45e",
-    "dest": "vendor/github.com/cavaliercoder/go-cpio"
+    "dest": "vendor/github.com/cavaliercoder/go-cpio",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/cespare/xxhash",
     "tag": "v2.1.2",
-    "dest": "vendor/github.com/cespare/xxhash/v2"
+    "dest": "vendor/github.com/cespare/xxhash/v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/charithe/durationcheck",
     "tag": "v0.0.9",
-    "dest": "vendor/github.com/charithe/durationcheck"
+    "dest": "vendor/github.com/charithe/durationcheck",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/chavacava/garif",
     "commit": "e8a0a408d6af",
-    "dest": "vendor/github.com/chavacava/garif"
+    "dest": "vendor/github.com/chavacava/garif",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/cloudflare/circl",
     "tag": "v1.1.0",
-    "dest": "vendor/github.com/cloudflare/circl"
+    "dest": "vendor/github.com/cloudflare/circl",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/containerd/stargz-snapshotter",
     "tag": "estargz/v0.11.4",
-    "dest": "vendor/github.com/containerd/stargz-snapshotter"
+    "dest": "vendor/github.com/containerd/stargz-snapshotter",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/coreos/go-iptables",
     "tag": "v0.6.0",
-    "dest": "vendor/github.com/coreos/go-iptables"
+    "dest": "vendor/github.com/coreos/go-iptables",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/coreos/go-systemd",
     "commit": "d3cd4ed1dbcf",
-    "dest": "vendor/github.com/coreos/go-systemd"
+    "dest": "vendor/github.com/coreos/go-systemd",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/creack/pty",
     "tag": "v1.1.17",
-    "dest": "vendor/github.com/creack/pty"
+    "dest": "vendor/github.com/creack/pty",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/daixiang0/gci",
     "tag": "v0.2.9",
-    "dest": "vendor/github.com/daixiang0/gci"
+    "dest": "vendor/github.com/daixiang0/gci",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/dave/jennifer",
     "tag": "v1.4.1",
-    "dest": "vendor/github.com/dave/jennifer"
+    "dest": "vendor/github.com/dave/jennifer",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/davecgh/go-spew",
     "tag": "v1.1.1",
-    "dest": "vendor/github.com/davecgh/go-spew"
+    "dest": "vendor/github.com/davecgh/go-spew",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/dblohm7/wingoes",
     "commit": "6ac47ab19aa5",
-    "dest": "vendor/github.com/dblohm7/wingoes"
+    "dest": "vendor/github.com/dblohm7/wingoes",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/denis-tingajkin/go-header",
     "tag": "v0.4.2",
-    "dest": "vendor/github.com/denis-tingajkin/go-header"
+    "dest": "vendor/github.com/denis-tingajkin/go-header",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/docker/cli",
     "tag": "v20.10.16",
-    "dest": "vendor/github.com/docker/cli"
+    "dest": "vendor/github.com/docker/cli",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/docker/distribution",
     "tag": "v2.8.1",
-    "dest": "vendor/github.com/docker/distribution"
+    "dest": "vendor/github.com/docker/distribution",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/docker/docker",
     "tag": "v20.10.16",
-    "dest": "vendor/github.com/docker/docker"
+    "dest": "vendor/github.com/docker/docker",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/docker/docker-credential-helpers",
     "tag": "v0.6.4",
-    "dest": "vendor/github.com/docker/docker-credential-helpers"
+    "dest": "vendor/github.com/docker/docker-credential-helpers",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/dsnet/try",
     "tag": "v0.0.3",
-    "dest": "vendor/github.com/dsnet/try"
+    "dest": "vendor/github.com/dsnet/try",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/emicklei/go-restful",
     "tag": "v3.8.0",
-    "dest": "vendor/github.com/emicklei/go-restful/v3"
+    "dest": "vendor/github.com/emicklei/go-restful/v3",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/emirpasic/gods",
     "tag": "v1.12.0",
-    "dest": "vendor/github.com/emirpasic/gods"
+    "dest": "vendor/github.com/emirpasic/gods",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/esimonov/ifshort",
     "tag": "v1.0.3",
-    "dest": "vendor/github.com/esimonov/ifshort"
+    "dest": "vendor/github.com/esimonov/ifshort",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/ettle/strcase",
     "tag": "v0.1.1",
-    "dest": "vendor/github.com/ettle/strcase"
+    "dest": "vendor/github.com/ettle/strcase",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/evanphx/json-patch",
     "tag": "v4.12.0",
-    "dest": "vendor/github.com/evanphx/json-patch"
+    "dest": "vendor/github.com/evanphx/json-patch",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/evanphx/json-patch",
     "tag": "v5.6.0",
-    "dest": "vendor/github.com/evanphx/json-patch/v5"
+    "dest": "vendor/github.com/evanphx/json-patch/v5",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/evanw/esbuild",
     "tag": "v0.14.53",
-    "dest": "vendor/github.com/evanw/esbuild"
+    "dest": "vendor/github.com/evanw/esbuild",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/fatih/color",
     "tag": "v1.13.0",
-    "dest": "vendor/github.com/fatih/color"
+    "dest": "vendor/github.com/fatih/color",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/fatih/structtag",
     "tag": "v1.2.0",
-    "dest": "vendor/github.com/fatih/structtag"
+    "dest": "vendor/github.com/fatih/structtag",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/frankban/quicktest",
     "tag": "v1.14.0",
-    "dest": "vendor/github.com/frankban/quicktest"
+    "dest": "vendor/github.com/frankban/quicktest",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/fsnotify/fsnotify",
     "tag": "v1.5.4",
-    "dest": "vendor/github.com/fsnotify/fsnotify"
+    "dest": "vendor/github.com/fsnotify/fsnotify",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/fxamacker/cbor",
     "tag": "v2.4.0",
-    "dest": "vendor/github.com/fxamacker/cbor/v2"
+    "dest": "vendor/github.com/fxamacker/cbor/v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/fzipp/gocyclo",
     "tag": "v0.3.1",
-    "dest": "vendor/github.com/fzipp/gocyclo"
+    "dest": "vendor/github.com/fzipp/gocyclo",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/gliderlabs/ssh",
     "tag": "v0.3.3",
-    "dest": "vendor/github.com/gliderlabs/ssh"
+    "dest": "vendor/github.com/gliderlabs/ssh",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-critic/go-critic",
     "tag": "v0.6.1",
-    "dest": "vendor/github.com/go-critic/go-critic"
+    "dest": "vendor/github.com/go-critic/go-critic",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-git/gcfg",
     "tag": "v1.5.0",
-    "dest": "vendor/github.com/go-git/gcfg"
+    "dest": "vendor/github.com/go-git/gcfg",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-git/go-billy",
     "tag": "v5.3.1",
-    "dest": "vendor/github.com/go-git/go-billy/v5"
+    "dest": "vendor/github.com/go-git/go-billy/v5",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-git/go-git",
     "tag": "v5.4.2",
-    "dest": "vendor/github.com/go-git/go-git/v5"
+    "dest": "vendor/github.com/go-git/go-git/v5",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-json-experiment/json",
     "commit": "c5ed296b8c92",
-    "dest": "vendor/github.com/go-json-experiment/json"
+    "dest": "vendor/github.com/go-json-experiment/json",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-logr/logr",
     "tag": "v1.2.3",
-    "dest": "vendor/github.com/go-logr/logr"
+    "dest": "vendor/github.com/go-logr/logr",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-logr/zapr",
     "tag": "v1.2.3",
-    "dest": "vendor/github.com/go-logr/zapr"
+    "dest": "vendor/github.com/go-logr/zapr",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-ole/go-ole",
     "tag": "v1.2.6",
-    "dest": "vendor/github.com/go-ole/go-ole"
+    "dest": "vendor/github.com/go-ole/go-ole",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-openapi/jsonpointer",
     "tag": "v0.19.5",
-    "dest": "vendor/github.com/go-openapi/jsonpointer"
+    "dest": "vendor/github.com/go-openapi/jsonpointer",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-openapi/jsonreference",
     "tag": "v0.19.5",
-    "dest": "vendor/github.com/go-openapi/jsonreference"
+    "dest": "vendor/github.com/go-openapi/jsonreference",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-openapi/swag",
     "tag": "v0.19.14",
-    "dest": "vendor/github.com/go-openapi/swag"
+    "dest": "vendor/github.com/go-openapi/swag",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-toolsmith/astcast",
     "tag": "v1.0.0",
-    "dest": "vendor/github.com/go-toolsmith/astcast"
+    "dest": "vendor/github.com/go-toolsmith/astcast",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-toolsmith/astcopy",
     "tag": "v1.0.0",
-    "dest": "vendor/github.com/go-toolsmith/astcopy"
+    "dest": "vendor/github.com/go-toolsmith/astcopy",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-toolsmith/astequal",
     "tag": "v1.0.1",
-    "dest": "vendor/github.com/go-toolsmith/astequal"
+    "dest": "vendor/github.com/go-toolsmith/astequal",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-toolsmith/astfmt",
     "tag": "v1.0.0",
-    "dest": "vendor/github.com/go-toolsmith/astfmt"
+    "dest": "vendor/github.com/go-toolsmith/astfmt",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-toolsmith/astp",
     "tag": "v1.0.0",
-    "dest": "vendor/github.com/go-toolsmith/astp"
+    "dest": "vendor/github.com/go-toolsmith/astp",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-toolsmith/strparse",
     "tag": "v1.0.0",
-    "dest": "vendor/github.com/go-toolsmith/strparse"
+    "dest": "vendor/github.com/go-toolsmith/strparse",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-toolsmith/typep",
     "tag": "v1.0.2",
-    "dest": "vendor/github.com/go-toolsmith/typep"
+    "dest": "vendor/github.com/go-toolsmith/typep",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go-xmlfmt/xmlfmt",
     "commit": "7fd73a941850",
-    "dest": "vendor/github.com/go-xmlfmt/xmlfmt"
+    "dest": "vendor/github.com/go-xmlfmt/xmlfmt",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/gobwas/glob",
     "tag": "v0.2.3",
-    "dest": "vendor/github.com/gobwas/glob"
+    "dest": "vendor/github.com/gobwas/glob",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/godbus/dbus",
     "tag": "v5.0.6",
-    "dest": "vendor/github.com/godbus/dbus/v5"
+    "dest": "vendor/github.com/godbus/dbus/v5",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/gofrs/flock",
     "tag": "v0.8.1",
-    "dest": "vendor/github.com/gofrs/flock"
+    "dest": "vendor/github.com/gofrs/flock",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/gogo/protobuf",
     "tag": "v1.3.2",
-    "dest": "vendor/github.com/gogo/protobuf"
+    "dest": "vendor/github.com/gogo/protobuf",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/golang/groupcache",
     "commit": "41bb18bfe9da",
-    "dest": "vendor/github.com/golang/groupcache"
+    "dest": "vendor/github.com/golang/groupcache",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/golang/protobuf",
     "tag": "v1.5.2",
-    "dest": "vendor/github.com/golang/protobuf"
+    "dest": "vendor/github.com/golang/protobuf",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/golangci/check",
     "commit": "cfe4005ccda2",
-    "dest": "vendor/github.com/golangci/check"
+    "dest": "vendor/github.com/golangci/check",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/golangci/dupl",
     "commit": "3e9179ac440a",
-    "dest": "vendor/github.com/golangci/dupl"
+    "dest": "vendor/github.com/golangci/dupl",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/golangci/go-misc",
     "commit": "927a3d87b613",
-    "dest": "vendor/github.com/golangci/go-misc"
+    "dest": "vendor/github.com/golangci/go-misc",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/golangci/gofmt",
     "commit": "244bba706f1a",
-    "dest": "vendor/github.com/golangci/gofmt"
+    "dest": "vendor/github.com/golangci/gofmt",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/golangci/golangci-lint",
     "tag": "v1.43.0",
-    "dest": "vendor/github.com/golangci/golangci-lint"
+    "dest": "vendor/github.com/golangci/golangci-lint",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/golangci/lint-1",
     "commit": "297bf364a8e0",
-    "dest": "vendor/github.com/golangci/lint-1"
+    "dest": "vendor/github.com/golangci/lint-1",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/golangci/maligned",
     "commit": "b1d89398deca",
-    "dest": "vendor/github.com/golangci/maligned"
+    "dest": "vendor/github.com/golangci/maligned",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/golangci/misspell",
     "tag": "v0.3.5",
-    "dest": "vendor/github.com/golangci/misspell"
+    "dest": "vendor/github.com/golangci/misspell",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/golangci/revgrep",
     "commit": "c22e5001d4f2",
-    "dest": "vendor/github.com/golangci/revgrep"
+    "dest": "vendor/github.com/golangci/revgrep",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/golangci/unconvert",
     "commit": "28b1c447d1f4",
-    "dest": "vendor/github.com/golangci/unconvert"
+    "dest": "vendor/github.com/golangci/unconvert",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/google/btree",
     "tag": "v1.0.1",
-    "dest": "vendor/github.com/google/btree"
+    "dest": "vendor/github.com/google/btree",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/google/gnostic",
     "tag": "v0.5.7-v3refs",
-    "dest": "vendor/github.com/google/gnostic"
+    "dest": "vendor/github.com/google/gnostic",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/google/go-cmp",
     "tag": "v0.5.8",
-    "dest": "vendor/github.com/google/go-cmp"
+    "dest": "vendor/github.com/google/go-cmp",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/google/go-containerregistry",
     "tag": "v0.9.0",
-    "dest": "vendor/github.com/google/go-containerregistry"
+    "dest": "vendor/github.com/google/go-containerregistry",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/google/gofuzz",
     "tag": "v1.1.0",
-    "dest": "vendor/github.com/google/gofuzz"
+    "dest": "vendor/github.com/google/gofuzz",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/google/goterm",
     "commit": "555d40f16ae2",
-    "dest": "vendor/github.com/google/goterm"
+    "dest": "vendor/github.com/google/goterm",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/google/rpmpack",
     "commit": "59e495f2b7e1",
-    "dest": "vendor/github.com/google/rpmpack"
+    "dest": "vendor/github.com/google/rpmpack",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/google/uuid",
     "tag": "v1.3.0",
-    "dest": "vendor/github.com/google/uuid"
+    "dest": "vendor/github.com/google/uuid",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/gordonklaus/ineffassign",
     "commit": "4cc7213b9bc8",
-    "dest": "vendor/github.com/gordonklaus/ineffassign"
+    "dest": "vendor/github.com/gordonklaus/ineffassign",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/goreleaser/chglog",
     "tag": "v0.1.2",
-    "dest": "vendor/github.com/goreleaser/chglog"
+    "dest": "vendor/github.com/goreleaser/chglog",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/goreleaser/fileglob",
     "tag": "v0.3.1",
-    "dest": "vendor/github.com/goreleaser/fileglob"
+    "dest": "vendor/github.com/goreleaser/fileglob",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/goreleaser/nfpm",
     "tag": "v1.10.3",
-    "dest": "vendor/github.com/goreleaser/nfpm"
+    "dest": "vendor/github.com/goreleaser/nfpm",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/gostaticanalysis/analysisutil",
     "tag": "v0.7.1",
-    "dest": "vendor/github.com/gostaticanalysis/analysisutil"
+    "dest": "vendor/github.com/gostaticanalysis/analysisutil",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/gostaticanalysis/comment",
     "tag": "v1.4.2",
-    "dest": "vendor/github.com/gostaticanalysis/comment"
+    "dest": "vendor/github.com/gostaticanalysis/comment",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/gostaticanalysis/forcetypeassert",
     "tag": "v0.1.0",
-    "dest": "vendor/github.com/gostaticanalysis/forcetypeassert"
+    "dest": "vendor/github.com/gostaticanalysis/forcetypeassert",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/gostaticanalysis/nilerr",
     "tag": "v0.1.1",
-    "dest": "vendor/github.com/gostaticanalysis/nilerr"
+    "dest": "vendor/github.com/gostaticanalysis/nilerr",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/hashicorp/errwrap",
     "tag": "v1.1.0",
-    "dest": "vendor/github.com/hashicorp/errwrap"
+    "dest": "vendor/github.com/hashicorp/errwrap",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/hashicorp/go-multierror",
     "tag": "v1.1.1",
-    "dest": "vendor/github.com/hashicorp/go-multierror"
+    "dest": "vendor/github.com/hashicorp/go-multierror",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/hashicorp/hcl",
     "tag": "v1.0.0",
-    "dest": "vendor/github.com/hashicorp/hcl"
+    "dest": "vendor/github.com/hashicorp/hcl",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/hdevalence/ed25519consensus",
     "commit": "c00d1f31bab3",
-    "dest": "vendor/github.com/hdevalence/ed25519consensus"
+    "dest": "vendor/github.com/hdevalence/ed25519consensus",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/huandu/xstrings",
     "tag": "v1.3.2",
-    "dest": "vendor/github.com/huandu/xstrings"
+    "dest": "vendor/github.com/huandu/xstrings",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/iancoleman/strcase",
     "tag": "v0.2.0",
-    "dest": "vendor/github.com/iancoleman/strcase"
+    "dest": "vendor/github.com/iancoleman/strcase",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/illarion/gonotify",
     "tag": "v1.0.1",
-    "dest": "vendor/github.com/illarion/gonotify"
+    "dest": "vendor/github.com/illarion/gonotify",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/imdario/mergo",
     "tag": "v0.3.12",
-    "dest": "vendor/github.com/imdario/mergo"
+    "dest": "vendor/github.com/imdario/mergo",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/inconshreveable/mousetrap",
     "tag": "v1.0.0",
-    "dest": "vendor/github.com/inconshreveable/mousetrap"
+    "dest": "vendor/github.com/inconshreveable/mousetrap",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/insomniacslk/dhcp",
     "commit": "de60144f33f8",
-    "dest": "vendor/github.com/insomniacslk/dhcp"
+    "dest": "vendor/github.com/insomniacslk/dhcp",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/jbenet/go-context",
     "commit": "d14ea06fba99",
-    "dest": "vendor/github.com/jbenet/go-context"
+    "dest": "vendor/github.com/jbenet/go-context",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/jgautheron/goconst",
     "tag": "v1.5.1",
-    "dest": "vendor/github.com/jgautheron/goconst"
+    "dest": "vendor/github.com/jgautheron/goconst",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/jingyugao/rowserrcheck",
     "tag": "v1.1.1",
-    "dest": "vendor/github.com/jingyugao/rowserrcheck"
+    "dest": "vendor/github.com/jingyugao/rowserrcheck",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/jirfag/go-printf-func-name",
     "commit": "7558a9eaa5af",
-    "dest": "vendor/github.com/jirfag/go-printf-func-name"
+    "dest": "vendor/github.com/jirfag/go-printf-func-name",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/jmespath/go-jmespath",
     "tag": "v0.4.0",
-    "dest": "vendor/github.com/jmespath/go-jmespath"
+    "dest": "vendor/github.com/jmespath/go-jmespath",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/josharian/intern",
     "tag": "v1.0.0",
-    "dest": "vendor/github.com/josharian/intern"
+    "dest": "vendor/github.com/josharian/intern",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/josharian/native",
     "commit": "c1e37c09b531",
-    "dest": "vendor/github.com/josharian/native"
+    "dest": "vendor/github.com/josharian/native",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/jsimonetti/rtnetlink",
     "commit": "d380b505068b",
-    "dest": "vendor/github.com/jsimonetti/rtnetlink"
+    "dest": "vendor/github.com/jsimonetti/rtnetlink",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/json-iterator/go",
     "tag": "v1.1.12",
-    "dest": "vendor/github.com/json-iterator/go"
+    "dest": "vendor/github.com/json-iterator/go",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/julz/importas",
     "commit": "27e0a5d4dee2",
-    "dest": "vendor/github.com/julz/importas"
+    "dest": "vendor/github.com/julz/importas",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kballard/go-shellquote",
     "commit": "95032a82bc51",
-    "dest": "vendor/github.com/kballard/go-shellquote"
+    "dest": "vendor/github.com/kballard/go-shellquote",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kevinburke/ssh_config",
     "tag": "v1.1.0",
-    "dest": "vendor/github.com/kevinburke/ssh_config"
+    "dest": "vendor/github.com/kevinburke/ssh_config",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kisielk/errcheck",
     "tag": "v1.6.0",
-    "dest": "vendor/github.com/kisielk/errcheck"
+    "dest": "vendor/github.com/kisielk/errcheck",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kisielk/gotool",
     "tag": "v1.0.0",
-    "dest": "vendor/github.com/kisielk/gotool"
+    "dest": "vendor/github.com/kisielk/gotool",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/klauspost/compress",
     "tag": "v1.15.4",
-    "dest": "vendor/github.com/klauspost/compress"
+    "dest": "vendor/github.com/klauspost/compress",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kortschak/wol",
     "commit": "da482cc4850a",
-    "dest": "vendor/github.com/kortschak/wol"
+    "dest": "vendor/github.com/kortschak/wol",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kr/fs",
     "tag": "v0.1.0",
-    "dest": "vendor/github.com/kr/fs"
+    "dest": "vendor/github.com/kr/fs",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kr/pretty",
     "tag": "v0.3.0",
-    "dest": "vendor/github.com/kr/pretty"
+    "dest": "vendor/github.com/kr/pretty",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kr/text",
     "tag": "v0.2.0",
-    "dest": "vendor/github.com/kr/text"
+    "dest": "vendor/github.com/kr/text",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kulti/thelper",
     "tag": "v0.4.0",
-    "dest": "vendor/github.com/kulti/thelper"
+    "dest": "vendor/github.com/kulti/thelper",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kunwardeep/paralleltest",
     "tag": "v1.0.3",
-    "dest": "vendor/github.com/kunwardeep/paralleltest"
+    "dest": "vendor/github.com/kunwardeep/paralleltest",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kyoh86/exportloopref",
     "tag": "v0.1.8",
-    "dest": "vendor/github.com/kyoh86/exportloopref"
+    "dest": "vendor/github.com/kyoh86/exportloopref",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/ldez/gomoddirectives",
     "tag": "v0.2.2",
-    "dest": "vendor/github.com/ldez/gomoddirectives"
+    "dest": "vendor/github.com/ldez/gomoddirectives",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/ldez/tagliatelle",
     "tag": "v0.2.0",
-    "dest": "vendor/github.com/ldez/tagliatelle"
+    "dest": "vendor/github.com/ldez/tagliatelle",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/magiconair/properties",
     "tag": "v1.8.5",
-    "dest": "vendor/github.com/magiconair/properties"
+    "dest": "vendor/github.com/magiconair/properties",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mailru/easyjson",
     "tag": "v0.7.6",
-    "dest": "vendor/github.com/mailru/easyjson"
+    "dest": "vendor/github.com/mailru/easyjson",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/maratori/testpackage",
     "tag": "v1.0.1",
-    "dest": "vendor/github.com/maratori/testpackage"
+    "dest": "vendor/github.com/maratori/testpackage",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/matoous/godox",
     "commit": "6504466cf951",
-    "dest": "vendor/github.com/matoous/godox"
+    "dest": "vendor/github.com/matoous/godox",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mattn/go-colorable",
     "tag": "v0.1.12",
-    "dest": "vendor/github.com/mattn/go-colorable"
+    "dest": "vendor/github.com/mattn/go-colorable",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mattn/go-isatty",
     "tag": "v0.0.14",
-    "dest": "vendor/github.com/mattn/go-isatty"
+    "dest": "vendor/github.com/mattn/go-isatty",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mattn/go-runewidth",
     "tag": "v0.0.13",
-    "dest": "vendor/github.com/mattn/go-runewidth"
+    "dest": "vendor/github.com/mattn/go-runewidth",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/matttproud/golang_protobuf_extensions",
     "commit": "c182affec369",
-    "dest": "vendor/github.com/matttproud/golang_protobuf_extensions"
+    "dest": "vendor/github.com/matttproud/golang_protobuf_extensions",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mbilski/exhaustivestruct",
     "tag": "v1.2.0",
-    "dest": "vendor/github.com/mbilski/exhaustivestruct"
+    "dest": "vendor/github.com/mbilski/exhaustivestruct",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mdlayher/genetlink",
     "tag": "v1.2.0",
-    "dest": "vendor/github.com/mdlayher/genetlink"
+    "dest": "vendor/github.com/mdlayher/genetlink",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mdlayher/netlink",
     "tag": "v1.6.0",
-    "dest": "vendor/github.com/mdlayher/netlink"
+    "dest": "vendor/github.com/mdlayher/netlink",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mdlayher/sdnotify",
     "tag": "v1.0.0",
-    "dest": "vendor/github.com/mdlayher/sdnotify"
+    "dest": "vendor/github.com/mdlayher/sdnotify",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mdlayher/socket",
     "tag": "v0.2.3",
-    "dest": "vendor/github.com/mdlayher/socket"
+    "dest": "vendor/github.com/mdlayher/socket",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mgechev/dots",
     "commit": "e955255bf517",
-    "dest": "vendor/github.com/mgechev/dots"
+    "dest": "vendor/github.com/mgechev/dots",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mgechev/revive",
     "tag": "v1.1.2",
-    "dest": "vendor/github.com/mgechev/revive"
+    "dest": "vendor/github.com/mgechev/revive",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/miekg/dns",
     "tag": "v1.1.43",
-    "dest": "vendor/github.com/miekg/dns"
+    "dest": "vendor/github.com/miekg/dns",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mitchellh/copystructure",
     "tag": "v1.2.0",
-    "dest": "vendor/github.com/mitchellh/copystructure"
+    "dest": "vendor/github.com/mitchellh/copystructure",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mitchellh/go-homedir",
     "tag": "v1.1.0",
-    "dest": "vendor/github.com/mitchellh/go-homedir"
+    "dest": "vendor/github.com/mitchellh/go-homedir",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mitchellh/go-ps",
     "tag": "v1.0.0",
-    "dest": "vendor/github.com/mitchellh/go-ps"
+    "dest": "vendor/github.com/mitchellh/go-ps",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mitchellh/mapstructure",
     "tag": "v1.4.3",
-    "dest": "vendor/github.com/mitchellh/mapstructure"
+    "dest": "vendor/github.com/mitchellh/mapstructure",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mitchellh/reflectwalk",
     "tag": "v1.0.2",
-    "dest": "vendor/github.com/mitchellh/reflectwalk"
+    "dest": "vendor/github.com/mitchellh/reflectwalk",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/modern-go/concurrent",
     "commit": "bacd9c7ef1dd",
-    "dest": "vendor/github.com/modern-go/concurrent"
+    "dest": "vendor/github.com/modern-go/concurrent",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/modern-go/reflect2",
     "tag": "v1.0.2",
-    "dest": "vendor/github.com/modern-go/reflect2"
+    "dest": "vendor/github.com/modern-go/reflect2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/moricho/tparallel",
     "tag": "v0.2.1",
-    "dest": "vendor/github.com/moricho/tparallel"
+    "dest": "vendor/github.com/moricho/tparallel",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/munnerz/goautoneg",
     "commit": "a7dc8b61c822",
-    "dest": "vendor/github.com/munnerz/goautoneg"
+    "dest": "vendor/github.com/munnerz/goautoneg",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/nakabonne/nestif",
     "tag": "v0.3.1",
-    "dest": "vendor/github.com/nakabonne/nestif"
+    "dest": "vendor/github.com/nakabonne/nestif",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/nbutton23/zxcvbn-go",
     "commit": "fa2cb2858354",
-    "dest": "vendor/github.com/nbutton23/zxcvbn-go"
+    "dest": "vendor/github.com/nbutton23/zxcvbn-go",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/nfnt/resize",
     "commit": "83c6a9932646",
-    "dest": "vendor/github.com/nfnt/resize"
+    "dest": "vendor/github.com/nfnt/resize",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/nishanths/exhaustive",
     "tag": "v0.7.11",
-    "dest": "vendor/github.com/nishanths/exhaustive"
+    "dest": "vendor/github.com/nishanths/exhaustive",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/nishanths/predeclared",
     "tag": "v0.2.1",
-    "dest": "vendor/github.com/nishanths/predeclared"
+    "dest": "vendor/github.com/nishanths/predeclared",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/olekukonko/tablewriter",
     "tag": "v0.0.5",
-    "dest": "vendor/github.com/olekukonko/tablewriter"
+    "dest": "vendor/github.com/olekukonko/tablewriter",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/onsi/gomega",
     "tag": "v1.20.1",
-    "dest": "vendor/github.com/onsi/gomega"
+    "dest": "vendor/github.com/onsi/gomega",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/opencontainers/go-digest",
     "tag": "v1.0.0",
-    "dest": "vendor/github.com/opencontainers/go-digest"
+    "dest": "vendor/github.com/opencontainers/go-digest",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/opencontainers/image-spec",
     "commit": "8b9d41f48198",
-    "dest": "vendor/github.com/opencontainers/image-spec"
+    "dest": "vendor/github.com/opencontainers/image-spec",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/pelletier/go-toml",
     "tag": "v1.9.4",
-    "dest": "vendor/github.com/pelletier/go-toml"
+    "dest": "vendor/github.com/pelletier/go-toml",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/peterbourgon/ff",
     "tag": "v3.1.2",
-    "dest": "vendor/github.com/peterbourgon/ff/v3"
+    "dest": "vendor/github.com/peterbourgon/ff/v3",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/phayes/checkstyle",
     "commit": "bfd46e6a821d",
-    "dest": "vendor/github.com/phayes/checkstyle"
+    "dest": "vendor/github.com/phayes/checkstyle",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/pkg/diff",
     "commit": "20ebb0f2a09e",
-    "dest": "vendor/github.com/pkg/diff"
+    "dest": "vendor/github.com/pkg/diff",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/pkg/errors",
     "tag": "v0.9.1",
-    "dest": "vendor/github.com/pkg/errors"
+    "dest": "vendor/github.com/pkg/errors",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/pkg/sftp",
     "tag": "v1.13.4",
-    "dest": "vendor/github.com/pkg/sftp"
+    "dest": "vendor/github.com/pkg/sftp",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/pmezard/go-difflib",
     "tag": "v1.0.0",
-    "dest": "vendor/github.com/pmezard/go-difflib"
+    "dest": "vendor/github.com/pmezard/go-difflib",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/polyfloyd/go-errorlint",
     "commit": "6d6d39c5bb8b",
-    "dest": "vendor/github.com/polyfloyd/go-errorlint"
+    "dest": "vendor/github.com/polyfloyd/go-errorlint",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/prometheus/client_golang",
     "tag": "v1.12.2",
-    "dest": "vendor/github.com/prometheus/client_golang"
+    "dest": "vendor/github.com/prometheus/client_golang",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/prometheus/client_model",
     "tag": "v0.2.0",
-    "dest": "vendor/github.com/prometheus/client_model"
+    "dest": "vendor/github.com/prometheus/client_model",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/prometheus/common",
     "tag": "v0.32.1",
-    "dest": "vendor/github.com/prometheus/common"
+    "dest": "vendor/github.com/prometheus/common",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/prometheus/procfs",
     "tag": "v0.7.3",
-    "dest": "vendor/github.com/prometheus/procfs"
+    "dest": "vendor/github.com/prometheus/procfs",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/quasilyte/go-ruleguard",
     "tag": "v0.3.13",
-    "dest": "vendor/github.com/quasilyte/go-ruleguard"
+    "dest": "vendor/github.com/quasilyte/go-ruleguard",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/quasilyte/regex",
     "commit": "b3f0c404a727",
-    "dest": "vendor/github.com/quasilyte/regex"
+    "dest": "vendor/github.com/quasilyte/regex",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/rivo/uniseg",
     "tag": "v0.2.0",
-    "dest": "vendor/github.com/rivo/uniseg"
+    "dest": "vendor/github.com/rivo/uniseg",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/rogpeppe/go-internal",
     "commit": "115ce09fd6b4",
-    "dest": "vendor/github.com/rogpeppe/go-internal"
+    "dest": "vendor/github.com/rogpeppe/go-internal",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/ryancurrah/gomodguard",
     "tag": "v1.2.3",
-    "dest": "vendor/github.com/ryancurrah/gomodguard"
+    "dest": "vendor/github.com/ryancurrah/gomodguard",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/ryanrolds/sqlclosecheck",
     "tag": "v0.3.0",
-    "dest": "vendor/github.com/ryanrolds/sqlclosecheck"
+    "dest": "vendor/github.com/ryanrolds/sqlclosecheck",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/sanposhiho/wastedassign",
     "tag": "v2.0.7",
-    "dest": "vendor/github.com/sanposhiho/wastedassign/v2"
+    "dest": "vendor/github.com/sanposhiho/wastedassign/v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/sassoftware/go-rpmutils",
     "tag": "v0.1.0",
-    "dest": "vendor/github.com/sassoftware/go-rpmutils"
+    "dest": "vendor/github.com/sassoftware/go-rpmutils",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/securego/gosec",
     "tag": "v2.9.3",
-    "dest": "vendor/github.com/securego/gosec/v2"
+    "dest": "vendor/github.com/securego/gosec/v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/sergi/go-diff",
     "tag": "v1.2.0",
-    "dest": "vendor/github.com/sergi/go-diff"
+    "dest": "vendor/github.com/sergi/go-diff",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/shazow/go-diff",
     "commit": "b6b7b6733b8c",
-    "dest": "vendor/github.com/shazow/go-diff"
+    "dest": "vendor/github.com/shazow/go-diff",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/sirupsen/logrus",
     "tag": "v1.8.1",
-    "dest": "vendor/github.com/sirupsen/logrus"
+    "dest": "vendor/github.com/sirupsen/logrus",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/sivchari/tenv",
     "tag": "v1.4.7",
-    "dest": "vendor/github.com/sivchari/tenv"
+    "dest": "vendor/github.com/sivchari/tenv",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/skip2/go-qrcode",
     "commit": "da1b6568686e",
-    "dest": "vendor/github.com/skip2/go-qrcode"
+    "dest": "vendor/github.com/skip2/go-qrcode",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/sonatard/noctx",
     "tag": "v0.0.1",
-    "dest": "vendor/github.com/sonatard/noctx"
+    "dest": "vendor/github.com/sonatard/noctx",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/sourcegraph/go-diff",
     "tag": "v0.6.1",
-    "dest": "vendor/github.com/sourcegraph/go-diff"
+    "dest": "vendor/github.com/sourcegraph/go-diff",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/spf13/afero",
     "tag": "v1.6.0",
-    "dest": "vendor/github.com/spf13/afero"
+    "dest": "vendor/github.com/spf13/afero",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/spf13/cast",
     "tag": "v1.4.1",
-    "dest": "vendor/github.com/spf13/cast"
+    "dest": "vendor/github.com/spf13/cast",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/spf13/cobra",
     "tag": "v1.4.0",
-    "dest": "vendor/github.com/spf13/cobra"
+    "dest": "vendor/github.com/spf13/cobra",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/spf13/jwalterweatherman",
     "tag": "v1.1.0",
-    "dest": "vendor/github.com/spf13/jwalterweatherman"
+    "dest": "vendor/github.com/spf13/jwalterweatherman",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/spf13/pflag",
     "tag": "v1.0.5",
-    "dest": "vendor/github.com/spf13/pflag"
+    "dest": "vendor/github.com/spf13/pflag",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/spf13/viper",
     "tag": "v1.9.0",
-    "dest": "vendor/github.com/spf13/viper"
+    "dest": "vendor/github.com/spf13/viper",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/ssgreg/nlreturn",
     "tag": "v2.2.1",
-    "dest": "vendor/github.com/ssgreg/nlreturn/v2"
+    "dest": "vendor/github.com/ssgreg/nlreturn/v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/stretchr/objx",
     "tag": "v0.4.0",
-    "dest": "vendor/github.com/stretchr/objx"
+    "dest": "vendor/github.com/stretchr/objx",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/stretchr/testify",
     "tag": "v1.8.0",
-    "dest": "vendor/github.com/stretchr/testify"
+    "dest": "vendor/github.com/stretchr/testify",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/subosito/gotenv",
     "tag": "v1.2.0",
-    "dest": "vendor/github.com/subosito/gotenv"
+    "dest": "vendor/github.com/subosito/gotenv",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/sylvia7788/contextcheck",
     "tag": "v1.0.4",
-    "dest": "vendor/github.com/sylvia7788/contextcheck"
+    "dest": "vendor/github.com/sylvia7788/contextcheck",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tailscale/certstore",
     "commit": "78d6e1c49d8d",
-    "dest": "vendor/github.com/tailscale/certstore"
+    "dest": "vendor/github.com/tailscale/certstore",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tailscale/depaware",
     "commit": "720c4b409502",
-    "dest": "vendor/github.com/tailscale/depaware"
+    "dest": "vendor/github.com/tailscale/depaware",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tailscale/goexpect",
     "commit": "6e8c725cea41",
-    "dest": "vendor/github.com/tailscale/goexpect"
+    "dest": "vendor/github.com/tailscale/goexpect",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tailscale/golang-x-crypto",
     "commit": "bc99ab8c2d17",
-    "dest": "vendor/github.com/tailscale/golang-x-crypto"
+    "dest": "vendor/github.com/tailscale/golang-x-crypto",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tailscale/goupnp",
     "commit": "c64d0f06ea05",
-    "dest": "vendor/github.com/tailscale/goupnp"
+    "dest": "vendor/github.com/tailscale/goupnp",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tailscale/hujson",
     "commit": "54599719472f",
-    "dest": "vendor/github.com/tailscale/hujson"
+    "dest": "vendor/github.com/tailscale/hujson",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tailscale/mkctr",
     "commit": "c0b937af2e89",
-    "dest": "vendor/github.com/tailscale/mkctr"
+    "dest": "vendor/github.com/tailscale/mkctr",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tailscale/netlink",
     "commit": "cabfb018fe85",
-    "dest": "vendor/github.com/tailscale/netlink"
+    "dest": "vendor/github.com/tailscale/netlink",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tailscale/wireguard-go",
     "commit": "4fa124729667",
-    "dest": "vendor/github.com/tailscale/wireguard-go"
+    "dest": "vendor/github.com/tailscale/wireguard-go",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tc-hib/winres",
     "tag": "v0.1.6",
-    "dest": "vendor/github.com/tc-hib/winres"
+    "dest": "vendor/github.com/tc-hib/winres",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tcnksm/go-httpstat",
     "tag": "v0.2.0",
-    "dest": "vendor/github.com/tcnksm/go-httpstat"
+    "dest": "vendor/github.com/tcnksm/go-httpstat",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tdakkota/asciicheck",
     "tag": "v0.1.1",
-    "dest": "vendor/github.com/tdakkota/asciicheck"
+    "dest": "vendor/github.com/tdakkota/asciicheck",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tetafro/godot",
     "tag": "v1.4.11",
-    "dest": "vendor/github.com/tetafro/godot"
+    "dest": "vendor/github.com/tetafro/godot",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/timakin/bodyclose",
     "commit": "f49887972144",
-    "dest": "vendor/github.com/timakin/bodyclose"
+    "dest": "vendor/github.com/timakin/bodyclose",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tomarrell/wrapcheck",
     "tag": "v2.4.0",
-    "dest": "vendor/github.com/tomarrell/wrapcheck/v2"
+    "dest": "vendor/github.com/tomarrell/wrapcheck/v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/tommy-muehle/go-mnd",
     "tag": "v2.4.0",
-    "dest": "vendor/github.com/tommy-muehle/go-mnd/v2"
+    "dest": "vendor/github.com/tommy-muehle/go-mnd/v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/toqueteos/webbrowser",
     "tag": "v1.2.0",
-    "dest": "vendor/github.com/toqueteos/webbrowser"
+    "dest": "vendor/github.com/toqueteos/webbrowser",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/u-root/u-root",
     "commit": "948a78c969ad",
-    "dest": "vendor/github.com/u-root/u-root"
+    "dest": "vendor/github.com/u-root/u-root",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/u-root/uio",
     "commit": "c3537552635f",
-    "dest": "vendor/github.com/u-root/uio"
+    "dest": "vendor/github.com/u-root/uio",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/ulikunitz/xz",
     "tag": "v0.5.10",
-    "dest": "vendor/github.com/ulikunitz/xz"
+    "dest": "vendor/github.com/ulikunitz/xz",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/ultraware/funlen",
     "tag": "v0.0.3",
-    "dest": "vendor/github.com/ultraware/funlen"
+    "dest": "vendor/github.com/ultraware/funlen",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/ultraware/whitespace",
     "tag": "v0.0.4",
-    "dest": "vendor/github.com/ultraware/whitespace"
+    "dest": "vendor/github.com/ultraware/whitespace",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/uudashr/gocognit",
     "tag": "v1.0.5",
-    "dest": "vendor/github.com/uudashr/gocognit"
+    "dest": "vendor/github.com/uudashr/gocognit",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/vbatts/tar-split",
     "tag": "v0.11.2",
-    "dest": "vendor/github.com/vbatts/tar-split"
+    "dest": "vendor/github.com/vbatts/tar-split",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/vishvananda/netlink",
     "commit": "650dca95af54",
-    "dest": "vendor/github.com/vishvananda/netlink"
+    "dest": "vendor/github.com/vishvananda/netlink",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/vishvananda/netns",
     "commit": "50045581ed74",
-    "dest": "vendor/github.com/vishvananda/netns"
+    "dest": "vendor/github.com/vishvananda/netns",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/x448/float16",
     "tag": "v0.8.4",
-    "dest": "vendor/github.com/x448/float16"
+    "dest": "vendor/github.com/x448/float16",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/xanzy/ssh-agent",
     "tag": "v0.3.1",
-    "dest": "vendor/github.com/xanzy/ssh-agent"
+    "dest": "vendor/github.com/xanzy/ssh-agent",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/yeya24/promlinter",
     "tag": "v0.1.0",
-    "dest": "vendor/github.com/yeya24/promlinter"
+    "dest": "vendor/github.com/yeya24/promlinter",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/uber-go/atomic",
     "tag": "v1.7.0",
-    "dest": "vendor/go.uber.org/atomic"
+    "dest": "vendor/go.uber.org/atomic",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/uber-go/multierr",
     "tag": "v1.6.0",
-    "dest": "vendor/go.uber.org/multierr"
+    "dest": "vendor/go.uber.org/multierr",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/uber-go/zap",
     "tag": "v1.21.0",
-    "dest": "vendor/go.uber.org/zap"
+    "dest": "vendor/go.uber.org/zap",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go4org/mem",
     "commit": "927187094b94",
-    "dest": "vendor/go4.org/mem"
+    "dest": "vendor/go4.org/mem",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/go4org/netipx",
     "commit": "7e7bdc8411bf",
-    "dest": "vendor/go4.org/netipx"
+    "dest": "vendor/go4.org/netipx",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://go.googlesource.com/crypto",
     "tag": "v0.3.0",
-    "dest": "vendor/golang.org/x/crypto"
+    "dest": "vendor/golang.org/x/crypto",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://go.googlesource.com/exp",
     "commit": "053ad81199eb",
-    "dest": "vendor/golang.org/x/exp"
+    "dest": "vendor/golang.org/x/exp",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://go.googlesource.com/exp",
     "commit": "47842c84f3db",
-    "dest": "vendor/golang.org/x/exp"
+    "dest": "vendor/golang.org/x/exp",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://go.googlesource.com/image",
     "commit": "35266b937fa6",
-    "dest": "vendor/golang.org/x/image"
+    "dest": "vendor/golang.org/x/image",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://go.googlesource.com/mod",
     "tag": "v0.6.0",
-    "dest": "vendor/golang.org/x/mod"
+    "dest": "vendor/golang.org/x/mod",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://go.googlesource.com/net",
     "tag": "v0.5.0",
-    "dest": "vendor/golang.org/x/net"
+    "dest": "vendor/golang.org/x/net",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://go.googlesource.com/oauth2",
     "commit": "9780585627b5",
-    "dest": "vendor/golang.org/x/oauth2"
+    "dest": "vendor/golang.org/x/oauth2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://go.googlesource.com/sync",
     "tag": "v0.1.0",
-    "dest": "vendor/golang.org/x/sync"
+    "dest": "vendor/golang.org/x/sync",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://go.googlesource.com/sys",
     "tag": "v0.4.0",
-    "dest": "vendor/golang.org/x/sys"
+    "dest": "vendor/golang.org/x/sys",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://go.googlesource.com/term",
     "tag": "v0.4.0",
-    "dest": "vendor/golang.org/x/term"
+    "dest": "vendor/golang.org/x/term",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://go.googlesource.com/text",
     "tag": "v0.6.0",
-    "dest": "vendor/golang.org/x/text"
+    "dest": "vendor/golang.org/x/text",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://go.googlesource.com/time",
     "commit": "579cf78fd858",
-    "dest": "vendor/golang.org/x/time"
+    "dest": "vendor/golang.org/x/time",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://go.googlesource.com/tools",
     "tag": "v0.2.0",
-    "dest": "vendor/golang.org/x/tools"
+    "dest": "vendor/golang.org/x/tools",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://git.zx2c4.com/wintun-go",
     "commit": "0fa3db229ce2",
-    "dest": "vendor/golang.zx2c4.com/wintun"
+    "dest": "vendor/golang.zx2c4.com/wintun",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://git.zx2c4.com/wireguard-windows",
     "tag": "v0.5.3",
-    "dest": "vendor/golang.zx2c4.com/wireguard/windows"
+    "dest": "vendor/golang.zx2c4.com/wireguard/windows",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/gomodules/jsonpatch",
     "tag": "v2.2.0",
-    "dest": "vendor/gomodules.xyz/jsonpatch/v2"
+    "dest": "vendor/gomodules.xyz/jsonpatch/v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/golang/appengine",
     "tag": "v1.6.7",
-    "dest": "vendor/google.golang.org/appengine"
+    "dest": "vendor/google.golang.org/appengine",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://go.googlesource.com/protobuf",
     "tag": "v1.28.0",
-    "dest": "vendor/google.golang.org/protobuf"
+    "dest": "vendor/google.golang.org/protobuf",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://gopkg.in/inf.v0",
     "tag": "v0.9.1",
-    "dest": "vendor/gopkg.in/inf.v0"
+    "dest": "vendor/gopkg.in/inf.v0",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://gopkg.in/ini.v1",
     "tag": "v1.66.2",
-    "dest": "vendor/gopkg.in/ini.v1"
+    "dest": "vendor/gopkg.in/ini.v1",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://gopkg.in/warnings.v0",
     "tag": "v0.1.2",
-    "dest": "vendor/gopkg.in/warnings.v0"
+    "dest": "vendor/gopkg.in/warnings.v0",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://gopkg.in/yaml.v2",
     "tag": "v2.4.0",
-    "dest": "vendor/gopkg.in/yaml.v2/v2"
+    "dest": "vendor/gopkg.in/yaml.v2/v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://gopkg.in/yaml.v3",
     "tag": "v3.0.1",
-    "dest": "vendor/gopkg.in/yaml.v3/v3"
+    "dest": "vendor/gopkg.in/yaml.v3/v3",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/google/gvisor",
     "commit": "703fd9b7fbc0",
-    "dest": "vendor/gvisor.dev/gvisor"
+    "dest": "vendor/gvisor.dev/gvisor",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/dominikh/go-tools",
     "commit": "f4a2f64ce238",
-    "dest": "vendor/honnef.co/go/tools"
+    "dest": "vendor/honnef.co/go/tools",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/DHowett/go-plist.git",
     "tag": "v1.0.0",
-    "dest": "vendor/howett.net/plist"
+    "dest": "vendor/howett.net/plist",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/inetaf/peercred",
     "commit": "0893ea02156a",
-    "dest": "vendor/inet.af/peercred"
+    "dest": "vendor/inet.af/peercred",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/inetaf/wf",
     "commit": "50d96caab2f6",
-    "dest": "vendor/inet.af/wf"
+    "dest": "vendor/inet.af/wf",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kubernetes/api",
     "tag": "v0.25.0",
-    "dest": "vendor/k8s.io/api"
+    "dest": "vendor/k8s.io/api",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kubernetes/apiextensions-apiserver",
     "tag": "v0.25.0",
-    "dest": "vendor/k8s.io/apiextensions-apiserver"
+    "dest": "vendor/k8s.io/apiextensions-apiserver",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kubernetes/apimachinery",
     "tag": "v0.25.0",
-    "dest": "vendor/k8s.io/apimachinery"
+    "dest": "vendor/k8s.io/apimachinery",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kubernetes/client-go",
     "tag": "v0.25.0",
-    "dest": "vendor/k8s.io/client-go"
+    "dest": "vendor/k8s.io/client-go",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kubernetes/component-base",
     "tag": "v0.25.0",
-    "dest": "vendor/k8s.io/component-base"
+    "dest": "vendor/k8s.io/component-base",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kubernetes/klog",
     "tag": "v2.70.1",
-    "dest": "vendor/k8s.io/klog/v2"
+    "dest": "vendor/k8s.io/klog/v2",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kubernetes/kube-openapi",
     "commit": "67bda5d908f1",
-    "dest": "vendor/k8s.io/kube-openapi"
+    "dest": "vendor/k8s.io/kube-openapi",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kubernetes/utils",
     "commit": "ee6ede2d64ed",
-    "dest": "vendor/k8s.io/utils"
+    "dest": "vendor/k8s.io/utils",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mvdan/gofumpt",
     "tag": "v0.2.0",
-    "dest": "vendor/mvdan.cc/gofumpt"
+    "dest": "vendor/mvdan.cc/gofumpt",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mvdan/interfacer",
     "commit": "c20040233aed",
-    "dest": "vendor/mvdan.cc/interfacer"
+    "dest": "vendor/mvdan.cc/interfacer",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mvdan/lint",
     "commit": "adc824a0674b",
-    "dest": "vendor/mvdan.cc/lint"
+    "dest": "vendor/mvdan.cc/lint",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/mvdan/unparam",
     "commit": "24922b6997ca",
-    "dest": "vendor/mvdan.cc/unparam"
+    "dest": "vendor/mvdan.cc/unparam",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/nhooyr/websocket",
     "tag": "v1.8.7",
-    "dest": "vendor/nhooyr.io/websocket"
+    "dest": "vendor/nhooyr.io/websocket",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kubernetes-sigs/controller-runtime",
     "tag": "v0.13.1",
-    "dest": "vendor/sigs.k8s.io/controller-runtime"
+    "dest": "vendor/sigs.k8s.io/controller-runtime",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kubernetes-sigs/json",
     "commit": "f223a00ba0e2",
-    "dest": "vendor/sigs.k8s.io/json"
+    "dest": "vendor/sigs.k8s.io/json",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kubernetes-sigs/structured-merge-diff",
     "tag": "v4.2.3",
-    "dest": "vendor/sigs.k8s.io/structured-merge-diff/v4"
+    "dest": "vendor/sigs.k8s.io/structured-merge-diff/v4",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://github.com/kubernetes-sigs/yaml",
     "tag": "v1.3.0",
-    "dest": "vendor/sigs.k8s.io/yaml"
+    "dest": "vendor/sigs.k8s.io/yaml",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   },
   {
     "type": "git",
     "url": "https://software.sslmate.com/src/go-pkcs12.git",
     "tag": "v0.2.0",
-    "dest": "vendor/software.sslmate.com/src/go-pkcs12"
+    "dest": "vendor/software.sslmate.com/src/go-pkcs12",
+    "disable-fsckobjects": true,
+    "disable-shallow-clone": true
   }
 ]

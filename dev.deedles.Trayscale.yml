@@ -16,7 +16,7 @@ finish-args:
   - --share=ipc
   - --filesystem=/run/tailscale:ro
   - --talk-name=org.freedesktop.Notifications
-  - --talk-name=org.kde.StatusNotifierWatcher
+  - --own-name=org.kde.*
 
 build-options:
   prepend-path: /usr/lib/sdk/golang/bin

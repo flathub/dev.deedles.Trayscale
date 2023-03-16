@@ -25,7 +25,7 @@ modules:
   - name: trayscale
     buildsystem: simple
     build-commands:
-      - go build -v -trimpath -ldflags="-X 'deedles.dev/trayscale/internal/version.version=v0.8.0'" ./cmd/trayscale
+      - go build -v -trimpath -ldflags="-X 'deedles.dev/trayscale/internal/version.version=v0.8.1'" ./cmd/trayscale
       - install -Dm0755 trayscale $FLATPAK_DEST/bin/trayscale
       - install -Dm0644 dev.deedles.Trayscale.png $FLATPAK_DEST/share/icons/hicolor/256x256/apps/dev.deedles.Trayscale.png
       - install -Dm0644 dev.deedles.Trayscale.desktop $FLATPAK_DEST/share/applications/dev.deedles.Trayscale.desktop
@@ -33,11 +33,11 @@ modules:
     sources:
       - type: git
         url: https://github.com/DeedleFake/trayscale
-        tag: v0.8.0
-        commit: 6df895f769c02c3506737490dfea02b7daf01664
+        tag: v0.8.1
+        commit: 543856283e6d2fa6364ec35323d2c47213da3faf
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.8.0/trayscale-vendor.tar.gz
-        sha256: 93123b00290d4c19690452c65cdc44700bdd1be27c8d74cebda71f14f68c2c64
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.8.1/trayscale-vendor.tar.gz
+        sha256: f3302cf8105aa1c81e58a65bcf58abeddab4f67199f35a57f5cf9fffd9822f0c
         strip-components: 0
 
   - name: tailscale
@@ -48,9 +48,9 @@ modules:
     sources:
       - type: git
         url: https://github.com/tailscale/tailscale
-        tag: v1.36.2
-        commit: 0438c67e2517c78feeaf0d9f61ea2a6303dd875c
+        tag: v1.38.1
+        commit: 3eeff9e7f76748cc484a8d1f7f4faa71a793bddd
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.7.12/tailscale-vendor-v1.36.2.tar.gz
-        sha256: ff21b765c7de1983e1e72177521644f4507123ec1f44a2f6ea324006eca3ee4e
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.8.1/tailscale-vendor.tar.gz
+        sha256: 55ce79c424d8439e8107b07d8ff1b82670fa43c525f0d9a649f39a5413c066e7
         strip-components: 0

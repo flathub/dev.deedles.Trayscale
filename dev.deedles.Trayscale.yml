@@ -25,7 +25,7 @@ modules:
   - name: trayscale
     buildsystem: simple
     build-commands:
-      - go build -v -trimpath -ldflags="-X 'deedles.dev/trayscale/internal/version.version=v0.8.2'" ./cmd/trayscale
+      - go build -v -trimpath -ldflags="-X 'deedles.dev/trayscale/internal/version.version=v0.8.3'" ./cmd/trayscale
       - install -Dm0755 trayscale $FLATPAK_DEST/bin/trayscale
       - install -Dm0644 dev.deedles.Trayscale.png $FLATPAK_DEST/share/icons/hicolor/256x256/apps/dev.deedles.Trayscale.png
       - install -Dm0644 dev.deedles.Trayscale.desktop $FLATPAK_DEST/share/applications/dev.deedles.Trayscale.desktop
@@ -33,11 +33,11 @@ modules:
     sources:
       - type: git
         url: https://github.com/DeedleFake/trayscale
-        tag: v0.8.2
-        commit: c25e4ca6017d82d7c081a33186ec7aabed2b0b0c
+        tag: v0.8.3
+        commit: ee944c671630394dd40afcd40f99bbd705b4ff77
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.8.2/trayscale-vendor.tar.gz
-        sha256: d35b66632cff8754cad79834ae95e68bf87e4d01eda0ea9f87ad9e268b8c4d09
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.8.3/trayscale-vendor.tar.gz
+        sha256: 162cfad12b1f461b9208a353cfc56e91ea34b198a248865700ec6c2130d04c65
         strip-components: 0
 
   - name: tailscale
@@ -48,9 +48,9 @@ modules:
     sources:
       - type: git
         url: https://github.com/tailscale/tailscale
-        tag: v1.38.1
-        commit: 3eeff9e7f76748cc484a8d1f7f4faa71a793bddd
+        tag: v1.38.2
+        commit: 3db61d07ca81aea7b86591d1874e48db01b6abcf
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.8.1/tailscale-vendor.tar.gz
-        sha256: 55ce79c424d8439e8107b07d8ff1b82670fa43c525f0d9a649f39a5413c066e7
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.8.3/tailscale-vendor.tar.gz
+        sha256: 1a6fc1333f4bd33804bdf8c026487132e88688fb22bbd97703ed4c087bbf9e34
         strip-components: 0

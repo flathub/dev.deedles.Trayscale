@@ -17,6 +17,7 @@ finish-args:
   - --filesystem=/run/tailscale:ro
   - --talk-name=org.freedesktop.Notifications
   - --own-name=org.kde.*
+  - --metadata=X-DConf=migrate-path=/dev/deedles/Trayscale/
 
 build-options:
   prepend-path: /usr/lib/sdk/golang/bin

@@ -27,7 +27,7 @@ modules:
   - name: trayscale
     buildsystem: simple
     build-commands:
-      - go build -v -trimpath -ldflags="-X 'deedles.dev/trayscale/internal/version.version=v0.9.0'" ./cmd/trayscale
+      - go build -v -trimpath -ldflags="-X 'deedles.dev/trayscale/internal/version.version=v0.9.1'" ./cmd/trayscale
       - install -Dm0755 trayscale $FLATPAK_DEST/bin/trayscale
       - install -Dm0644 dev.deedles.Trayscale.png $FLATPAK_DEST/share/icons/hicolor/256x256/apps/dev.deedles.Trayscale.png
       - install -Dm0644 dev.deedles.Trayscale.desktop $FLATPAK_DEST/share/applications/dev.deedles.Trayscale.desktop
@@ -37,8 +37,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/DeedleFake/trayscale
-        tag: v0.9.0
-        commit: bcfa5a13ca937355656b2d62633945bbd62f39ac
+        tag: v0.9.1
+        commit: 2db7db4c0d35c8c0be81c88582781bc3f1267018
       - type: archive
         url: https://github.com/DeedleFake/trayscale/releases/download/v0.9.0/trayscale-vendor.tar.gz
         sha256: 9b060b3fc90bf7a18242d276db2a44a80d31ddcc982e523cfa237d51280769bc

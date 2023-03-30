@@ -17,6 +17,7 @@ finish-args:
   - --filesystem=/run/tailscale:ro
   - --talk-name=org.freedesktop.Notifications
   - --own-name=org.kde.*
+  - --metadata=X-DConf=migrate-path=/dev/deedles/Trayscale/
 
 build-options:
   prepend-path: /usr/lib/sdk/golang/bin
@@ -27,19 +28,17 @@ modules:
   - name: trayscale
     buildsystem: simple
     build-commands:
-      - go build -v -trimpath -ldflags="-X 'deedles.dev/trayscale/internal/version.version=v0.8.5'" ./cmd/trayscale
-      - install -Dm0755 trayscale $FLATPAK_DEST/bin/trayscale
-      - install -Dm0644 dev.deedles.Trayscale.png $FLATPAK_DEST/share/icons/hicolor/256x256/apps/dev.deedles.Trayscale.png
-      - install -Dm0644 dev.deedles.Trayscale.desktop $FLATPAK_DEST/share/applications/dev.deedles.Trayscale.desktop
-      - install -Dm0644 dev.deedles.Trayscale.metainfo.xml $FLATPAK_DEST/share/metainfo/dev.deedles.Trayscale.metainfo.xml
+      - ./dist.sh build
+      - ./dist.sh install "$FLATPAK_DEST"
+      - glib-compile-schemas "$FLATPAK_DEST/share/glib-2.0/schemas"
     sources:
       - type: git
         url: https://github.com/DeedleFake/trayscale
-        tag: v0.8.5
-        commit: e92485fa3095c1a19ffb308fc553f15ff5301d22
+        tag: v0.9.2
+        commit: 712303475382b2c435bb240ea9284302db815532
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.8.4/trayscale-vendor.tar.gz
-        sha256: 36225e1c858b7bf36b357a463579dab61625541b945aa60d5a458307cb7c8aa6
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.9.0/trayscale-vendor.tar.gz
+        sha256: 9b060b3fc90bf7a18242d276db2a44a80d31ddcc982e523cfa237d51280769bc
         strip-components: 0
 
   - name: tailscale
@@ -50,9 +49,9 @@ modules:
     sources:
       - type: git
         url: https://github.com/tailscale/tailscale
-        tag: v1.38.2
-        commit: 3db61d07ca81aea7b86591d1874e48db01b6abcf
+        tag: v1.38.3
+        commit: 47ebe6f9560c5d20199ff7f78574fd830a60b842
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.8.3/tailscale-vendor.tar.gz
-        sha256: 1a6fc1333f4bd33804bdf8c026487132e88688fb22bbd97703ed4c087bbf9e34
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.9.0/tailscale-vendor.tar.gz
+        sha256: da5a765393737d1ea1c1b0bfdf5e7f8cae2b77e454a06626238e4db6bcab3663
         strip-components: 0

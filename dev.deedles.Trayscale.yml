@@ -34,11 +34,11 @@ modules:
     sources:
       - type: git
         url: https://github.com/DeedleFake/trayscale
-        tag: v0.9.7
-        commit: 31d54484fc710e94e5c15657bce8c66a7976c219
+        tag: v0.9.8
+        commit: 8f5897ad525373f5fa55027e2b01afc3090a2aef
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.9.6/trayscale-vendor.tar.gz
-        sha256: 570601217f0e6fb9a2232e021b9fbc41978834f17cf11f2660f77b8281e6c9de
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.9.8/trayscale-vendor.tar.gz
+        sha256: 8e89775b758d8fec94669b38881efe2c229cca37c2579ed2b1ba4f78da18e391
         strip-components: 0
 
   - name: tailscale
@@ -49,9 +49,9 @@ modules:
     sources:
       - type: git
         url: https://github.com/tailscale/tailscale
-        tag: v1.40.0
-        commit: 9bdaece3d7c3c83aae01e0736ba54e833f4aea51
+        tag: v1.46.1
+        commit: 2d3223f557924d408b5d67b80440d6fba264a0fd
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.9.6/tailscale-vendor.tar.gz
-        sha256: 28b7f8ebaa1d950579819f3ed2c16f2927280d6ca39132f9774d9a17d1980183
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.9.8/tailscale-vendor.tar.gz
+        sha256: f7c5829b88c4b86ae864b4c1515ab1ac65dedcbd61f5d115cc78aaf7f1e848b0
         strip-components: 0

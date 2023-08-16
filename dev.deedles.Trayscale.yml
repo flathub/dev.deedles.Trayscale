@@ -34,11 +34,11 @@ modules:
     sources:
       - type: git
         url: https://github.com/DeedleFake/trayscale
-        tag: v0.10.0
-        commit: 838c4ef2dec1623a6d6620c39dbd5c7a6251a8c1
+        tag: v0.10.1
+        commit: 09631af8ec59e88903ebdd3d00dea33d4cfc670e
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.10.0/trayscale-vendor.tar.gz
-        sha256: b77eccc19c6be4e9cb64eab7302560d9c3a98cc1cd3e292c788f6507dcf16fab
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.10.1/trayscale-vendor.tar.gz
+        sha256: e9a74f4515a5805f0991f69ba6cc5a6bf1b3cbeec53583648e7c55f9b08de6c7
         strip-components: 0
 
   - name: tailscale

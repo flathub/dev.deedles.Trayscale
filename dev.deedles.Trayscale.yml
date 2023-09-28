@@ -16,7 +16,6 @@ finish-args:
   - --share=ipc
   - --filesystem=/run/tailscale:ro
   - --talk-name=org.freedesktop.Notifications
-  - --own-name=org.kde.*
   - --metadata=X-DConf=migrate-path=/dev/deedles/Trayscale/
 
 build-options:

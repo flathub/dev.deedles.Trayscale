@@ -1,7 +1,7 @@
 app-id: dev.deedles.Trayscale
 
 runtime: org.gnome.Platform
-runtime-version: '44'
+runtime-version: '45'
 sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
@@ -34,11 +34,11 @@ modules:
     sources:
       - type: git
         url: https://github.com/DeedleFake/trayscale
-        tag: v0.10.2
-        commit: 81957c1988f7b9d9f0fa373648d5041737cf62e4
+        tag: v0.10.3
+        commit: 9295131055d49347a9d482a48fd0e16394e0e704
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.10.2/trayscale-vendor.tar.gz
-        sha256: 9cc0cb718908abe741d3b6ef5329048e204d2a4f0d818f005875febc3205db6d
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.10.3/trayscale-vendor.tar.gz
+        sha256: 3da7146ae67d2c28c0d34dd31b7ee2e08e0b2ff6e3f78b888109cc08303ba134
         strip-components: 0
 
   - name: tailscale
@@ -49,9 +49,9 @@ modules:
     sources:
       - type: git
         url: https://github.com/tailscale/tailscale
-        tag: v1.48.0
-        commit: 77c732357bd891ff062b8aeeac5489f85315f261
+        tag: v1.50.1
+        commit: 8749388061d0251483389fa876afa01e0e76f15b
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.10.0/tailscale-vendor.tar.gz
-        sha256: 75cd738ad88a56f8959f8cca500ee4ca37b124d74887e59db61c78864efb9fd5
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.10.3/tailscale-vendor.tar.gz
+        sha256: 6c8b933dfa83831fc1b5dd2a3e5f0952cf97928d2230672af66bed2a40b093c7
         strip-components: 0

@@ -34,24 +34,9 @@ modules:
     sources:
       - type: git
         url: https://github.com/DeedleFake/trayscale
-        tag: v0.12.4
-        commit: 0a1947fb19907511a1b74ab8af510d7ee42977ab
+        tag: v0.12.5
+        commit: d6223c8ef3eaafc1ec1ff9282cd72366afe3ce24
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.12.4/trayscale-vendor.tar.gz
-        sha256: 878bafe0bcbdf2c1271e316f4a47ca1ec189cbca4d38be3e497fa65c28256a23
-        strip-components: 0
-
-  - name: tailscale
-    buildsystem: simple
-    build-commands:
-      - go build -v -trimpath ./cmd/tailscale
-      - install -Dm0755 tailscale $FLATPAK_DEST/bin/tailscale
-    sources:
-      - type: git
-        url: https://github.com/tailscale/tailscale
-        tag: v1.68.1
-        commit: 92eacec73f10616b2be7aae7a1ac53c8e44e9268
-      - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.12.4/tailscale-vendor.tar.gz
-        sha256: e9dcbafee33a578d1a74e5348485e63c244510a540f3730fedad8263c5ce0566
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.12.5/trayscale-vendor.tar.gz
+        sha256: 765c799d35be7373d20e647b943f63776643b91646651b2e47c1e581df9ef9fa
         strip-components: 0

@@ -43,5 +43,5 @@ modules:
         x-checker-data:
           type: html
           url: https://github.com/DeedleFake/trayscale/releases
-          version-pattern: 'href="/DeedleFake/trayscale/releases/download/(v([\\d.]+)/trayscale-vendor.tar.gz"'
+          version-pattern: 'href="/DeedleFake/trayscale/releases/download/(v([\d.]+)/trayscale-vendor.tar.gz"'
           url-template: "https://github.com/DeedleFake/trayscale/releases/download/$version/trayscale-vendor.tar.gz"

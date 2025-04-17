@@ -34,8 +34,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/DeedleFake/trayscale
-        tag: v0.14.2
-        commit: 419603da5f11e4abc8752210c66eb95f8cd20f91
+        tag: v0.14.3
+        commit: 7e89d61b6da5e5eb71680fde683334b140eb2c52
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$

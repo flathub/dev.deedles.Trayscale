@@ -17,6 +17,7 @@ finish-args:
   - --filesystem=/run/tailscale:ro
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
+  - --talk-name=org.freedesktop.StatusNotifierWatcher
   - --metadata=X-DConf=migrate-path=/dev/deedles/Trayscale/
 
 build-options:
@@ -34,15 +35,15 @@ modules:
     sources:
       - type: git
         url: https://github.com/DeedleFake/trayscale
-        tag: v0.14.3
-        commit: 11441312474d6e09fd9486133bed7645190718a4
+        tag: v0.15.1
+        commit: fa96abad4937473a9a437c5537cf2408a1f0b590
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
           version-scheme: semantic
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.14.3/trayscale-vendor.tar.gz
-        sha256: 5d7dd532f50b58827152ae1f65ed8404c3d14df2d84f4620b58a23ad9c61f12d
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.15.1/trayscale-vendor.tar.gz
+        sha256: 7c0b851be32b1801cb7fb6ed8a02970d6f6a35ac60df5849b3199f9f73bb7d5f
         strip-components: 0
         x-checker-data:
           type: html

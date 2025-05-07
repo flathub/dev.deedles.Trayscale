@@ -42,8 +42,8 @@ modules:
           tag-pattern: ^v([\d.]+)$
           version-scheme: semantic
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.15.2/trayscale-vendor.tar.gz
-        sha256: 2d057ccda11254bc6e70222102340d99838f6da0b69d7cc860f929bbfb43fbb0
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.15.3/trayscale-vendor.tar.gz
+        sha256: 5f09232c8420215dd73bce04b1f05921352a95b3ca1935f5d24b51b451b518a2
         strip-components: 0
         x-checker-data:
           type: html

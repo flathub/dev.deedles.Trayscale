@@ -35,18 +35,18 @@ modules:
     sources:
       - type: git
         url: https://github.com/DeedleFake/trayscale
-        tag: v0.15.2
-        commit: de03e9651e3f4601a71a1fc747eb9149bbb50db6
+        tag: v0.15.4
+        commit: 1f6c67fc550fae275db04c039fcdd340927078aa
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
           version-scheme: semantic
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.15.2/trayscale-vendor.tar.gz
-        sha256: 2d057ccda11254bc6e70222102340d99838f6da0b69d7cc860f929bbfb43fbb0
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.15.4/trayscale-vendor.tar.xz
+        sha256: c8b8b6513c2b9b8980c6058a6f0e76a510e26ddee439a0018a6e50b098c99b7e
         strip-components: 0
         x-checker-data:
           type: html
           url: https://github.com/DeedleFake/trayscale/releases
-          version-pattern: href="/DeedleFake/trayscale/releases/download/(v([\d.]+)/trayscale-vendor.tar.gz"
-          url-template: https://github.com/DeedleFake/trayscale/releases/download/$version/trayscale-vendor.tar.gz
+          version-pattern: href="/DeedleFake/trayscale/releases/download/(v([\d.]+)/trayscale-vendor.tar.xz"
+          url-template: https://github.com/DeedleFake/trayscale/releases/download/$version/trayscale-vendor.tar.xz

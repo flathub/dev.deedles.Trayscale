@@ -35,15 +35,15 @@ modules:
     sources:
       - type: git
         url: https://github.com/DeedleFake/trayscale
-        tag: v0.18.0
-        commit: e13ecaf095c9a43a1b0ca253e5d16a859be0a0ad
+        tag: v0.18.1
+        commit: 49f84b15dbfac5b78b0403e284509d0ecab0f299
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
           version-scheme: semantic
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.18.0/trayscale-vendor.tar.xz
-        sha256: 787cf16404ee60cb8f68f939472e748d224af77515e9ead17bf00641d2549608
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.18.1/trayscale-vendor.tar.xz
+        sha256: 199c792bd51e2eca78d0d3e1e573dc72afd9d952c651e91abcdf64cd7a4ca63c
         strip-components: 0
         x-checker-data:
           type: html

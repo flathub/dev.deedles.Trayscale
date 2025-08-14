@@ -22,8 +22,6 @@ finish-args:
 
 build-options:
   prepend-path: /usr/lib/sdk/golang/bin
-  #build-args:
-  #  - --filesystem=home # Allows access to the Go build cache for easier local testing.
 
 modules:
   - name: trayscale

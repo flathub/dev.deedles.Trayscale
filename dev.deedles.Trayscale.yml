@@ -1,7 +1,7 @@
 app-id: dev.deedles.Trayscale
 
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.golang
@@ -33,15 +33,15 @@ modules:
     sources:
       - type: git
         url: https://github.com/DeedleFake/trayscale
-        tag: v0.18.3
-        commit: 16e99fbe859bf8316977640bdc8c5e0679b5ab85
+        tag: v0.18.4
+        commit: 93d14261143592350091e1abcfcbab5249e7c4d6
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
           version-scheme: semantic
       - type: archive
-        url: https://github.com/DeedleFake/trayscale/releases/download/v0.18.2/trayscale-vendor.tar.xz
-        sha256: 651bff45fcd93a380c52fdddea20a6f4f81b9e1ced67a3167b27a982cc3c530e
+        url: https://github.com/DeedleFake/trayscale/releases/download/v0.18.4/trayscale-vendor.tar.xz
+        sha256: 1e412e209197a56f6bf13b69cc81a60e0e65db265c38f4bf6bdfb4951b18def4
         strip-components: 0
         x-checker-data:
           type: html

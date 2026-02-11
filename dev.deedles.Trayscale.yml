@@ -22,13 +22,13 @@ finish-args:
 
 build-options:
   prepend-path: /usr/lib/sdk/golang/bin
-  env:
-    GOEXPERIMENT: greenteagc
 
 modules:
   - name: trayscale
     buildsystem: simple
     build-commands:
+      - go version
+      - go env -changed
       - ./dist.sh build
       - ./dist.sh install "$FLATPAK_DEST"
       - glib-compile-schemas "$FLATPAK_DEST/share/glib-2.0/schemas"
